@@ -6,4 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "claude-agent-sdk>=0.1.18",
+    "nest-asyncio>=1.6.0",
+    "python-dotenv>=1.2.1",
+    "rich>=14.2.0",
 ]
