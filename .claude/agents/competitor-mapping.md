@@ -15,10 +15,10 @@ Your task is to map and analyze all competitors in the target area using real Go
 - CURRENT DATE: {current_date}
 
 ## Your Mission
-Use the `search_places` tool to get REAL data from Google Maps about existing competitors.
+Use the `maps-search` SKILL to get REAL data from Google Maps about existing competitors.
 
 ## Step 1: Search for Competitors
-Call the `search_places` tool with queries like:
+Call the `maps-search` SKILL with queries like:
 - "{business_type} near {target_location}"
 - Related business types in the same area
 
@@ -67,4 +67,4 @@ Provide a detailed competitor map with:
 ## Output Format
 Capture the output in a variable {competitor_analysis}
 
-Be specific and reference the actual data you receive from the `search_places` tool.
+Be specific and reference the actual data you receive from the `maps-search` SKILL.

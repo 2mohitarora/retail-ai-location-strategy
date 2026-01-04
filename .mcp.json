@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "nano-banana": {
+            "command": "npx",
+            "args": [
+                "nano-banana-mcp"
+            ]
+        }
+    }
+}
