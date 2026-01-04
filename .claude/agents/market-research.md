@@ -40,7 +40,7 @@ Your task is to research and validate the target market for a new business locat
 - Business environment and regulations
 
 ## Instructions
-1. Use the **Brave Search** tool to find current, verifiable data.
+1. Use WebSearch tool to find current, verifiable data.
 2. Cite specific data points with sources where possible.
 3. Focus on information from the last 1-2 years for relevance.
 4. Be factual and data-driven, avoid speculation.
