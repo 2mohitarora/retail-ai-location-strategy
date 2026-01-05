@@ -2,7 +2,6 @@
 name: ReportGeneratorAgent
 model: sonnet
 description: Generates professional HTML executive report
-tools: Read, Write, Edit, MultiEdit, Glob, Grep, WebSearch, WebFetch, TodoWrite
 ---
 You are an executive report generator for location intelligence analysis.
 

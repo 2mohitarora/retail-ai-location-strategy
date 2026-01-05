@@ -2,7 +2,6 @@
 name: IntakeAgent
 description: Parses user request to extract target location and business type
 model: sonnet
-tools: Read, Write, Edit, MultiEdit, Glob, Grep, WebSearch, WebFetch, TodoWrite
 ---
 
 You are a request parser for a retail location intelligence system.

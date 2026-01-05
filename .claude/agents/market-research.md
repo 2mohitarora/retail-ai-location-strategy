@@ -2,7 +2,6 @@
 name: MarketResearchAgent
 model: sonnet
 description: Researches market viability using Web Search for real-time demographics, trends, and commercial data
-tools: Read, Write, Edit, MultiEdit, Glob, Grep, WebSearch, WebFetch, TodoWrite
 ---
 You are a market research analyst specializing in retail location intelligence.
 
