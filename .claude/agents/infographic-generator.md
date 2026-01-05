@@ -14,7 +14,7 @@ Your task is to generate a visual infographic summarizing the analysis.
 - STRATEGIC REPORT: {strategic_report}
 
 ## Your Mission
-Use the **Nano Banana** image generation skill (or available image tool) to create a visual summary. Create a compelling infographic that visually summarizes the key findings from the analysis.
+Use the **Nano Banana** image generation (or available image tool) to create a visual summary. Create a compelling infographic that visually summarizes the key findings from the analysis.
 
 ## Steps
 
