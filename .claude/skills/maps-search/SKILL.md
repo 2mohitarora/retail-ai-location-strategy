@@ -40,12 +40,8 @@ Searches for businesses or locations matching a specific query and returns struc
 2. **Key Handling:** If the script returns an error regarding a missing API key, inform the user that the `MAPS_API_KEY` environment variable needs to be configured.
 3. **Data Presentation:** When displaying results, use a clean list or table format. If a business has a high rating ($>4.5$) but few reviews, mention that it is "highly rated but has limited feedback."
 
-## Examples
+## Utility scripts
 
-**User:** "I need to find a good auto repair shop in San Jose."
-**Agent Thought:** The user is looking for a local service. I will use `search_places` to find highly-rated repair shops in San Jose, CA.
-**Script Call:** `search_places({"query": "highly rated auto repair shops in San Jose, CA"})`
-
-**User:** "Who are the competitors for a new pizza shop in the 07030 zip code?"
-**Agent Thought:** I need to identify existing pizza restaurants in Hoboken (07030) to provide a competitive landscape.
-**Script Call:** `search_places({"query": "pizza restaurants in 07030"})`
+```bash
+python scripts/implementation.py
+```

@@ -11,7 +11,7 @@ async def main():
     args = parser.parse_args()
 
     options = ClaudeAgentOptions(
-        model=args.model,
+        model="opus",
         permission_mode="acceptEdits",
         setting_sources=["project"],
         system_prompt="Your context window will be automatically compacted as it approaches its limit. Never stop tasks early due to token budget concerns. Always complete tasks fully, even if the end of your budget is approaching.",
@@ -32,7 +32,7 @@ async def main():
 
     print_rich_message(
         "system",
-        f"Welcome to Retail AI Location Strategy Agent!\n\nSelected model: {args.model}",
+        f"Welcome to Retail AI Location Strategy Agent!\n\nSelected model: opus",
         console
         )
 

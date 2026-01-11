@@ -10,10 +10,9 @@ Given a location and business type, this pipeline automatically:
 - Generates strategic recommendations with extended reasoning
 - Produces an HTML executive report and visual infographic
 
-### Setup Environment
+### How to run locally after cloning the repo
 ```bash
-uv init
-uv add claude-agent-sdk
+uv sync
 source .venv/bin/activate
 uv run main.py
 ```
